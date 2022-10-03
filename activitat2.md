@@ -112,3 +112,12 @@ Reiniciem Apache:
 A partir d'aquest moment podem accedir a owncloud des del navegador per això hem d'introduir la nostra IP seguida de "/owncloud" al mateix, per exemple si la nostra IP és 172.31.84.197 posarem al navegador 172.31.84.197/owncloud i podrem accedir al servei.
 
 Ja al navegador creem un compte d'administració i posem les dades de MariaDB que hem configurat anteriorment.
+
+# Que es apache
+
+La funcionalitat principal daquest servei web és servir als usuaris tots els fitxers necessaris per visualitzar el web. Les sol·licituds dels usuaris es fan normalment mitjançant un navegador (Chrome, Firefox, Safari, etc.).
+
+Per exemple, quan un usuari escriu al seu navegador dinahosting.com, aquesta petició arribarà al nostre servidor Apache que mitjançant el protocol HTTP aquest s'encarregarà de facilitar-vos els textos, imatges, estils, etc. que conformen la portada de la nostra web de manera segura.
+
+Apache té una estructura basada en mòduls, que permet activar i desactivar funcionalitats addicionals, per exemple, mòduls de seguretat com mod_security, mòduls de memòria cau com Varnish, o de personalització de capçaleres com mod_headers. També permet ajustar els paràmetres de PHP del teu hosting de manera personalitzada mitjançant el fitxer .htaccess.
+
