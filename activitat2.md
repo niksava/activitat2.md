@@ -121,3 +121,11 @@ Per exemple, quan un usuari escriu al seu navegador dinahosting.com, aquesta pet
 
 Apache té una estructura basada en mòduls, que permet activar i desactivar funcionalitats addicionals, per exemple, mòduls de seguretat com mod_security, mòduls de memòria cau com Varnish, o de personalització de capçaleres com mod_headers. També permet ajustar els paràmetres de PHP del teu hosting de manera personalitzada mitjançant el fitxer .htaccess.
 
+## Què fa la comanda a2ensite?
+Enjaga el owncloud
+
+## I la comando a2dissite?
+Apaga el owncloud
+
+## Què significa la línia de /etc/hosts
+Aqui configurem els nostres dominis que voldrem entrar a la nostra pagina de owncloud.
